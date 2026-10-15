@@ -4,7 +4,7 @@ Analysis code for the normative leader-follower sensorimotor coordination paper.
 
 ## Current contents
 
-- [`phasic-eeg/`](phasic-eeg/): corrected response-locked phasic EEG contrast verification, including the primary and RT-controlled sensitivity modes. The four files in this folder are unchanged copies of [the original phasic code repository](https://github.com/Carbonbygravity/tetradic-phasic-eeg-analysis) at commit `5fc24f8c2eeb58a2ef267c942f99b1adaee3b91b`.
+- [`phasic-eeg/`](phasic-eeg/): corrected response-locked phasic EEG contrast verification, including the primary and RT-controlled sensitivity modes. The four files in this folder are unchanged from the earlier phasic-only release and are now maintained here.
 
 Behavioural, tonic EEG, and information-decomposition analysis code is not included yet. No claim of reproducibility for those analyses is made by this release.
 
