@@ -7,7 +7,7 @@ Analysis code for the normative leader–follower sensorimotor coordination pape
 - [`behavioural/`](behavioural/): reaction-time screening, the trial-level mixed model, within-participant contrasts, and the dyad-level sensitivity check.
 - [`tonic-eeg/`](tonic-eeg/): the RT-adjusted tonic power model, sensitivity checks, and the feature-level results table.
 - [`phasic-eeg/`](phasic-eeg/): response-locked cluster analyses, their sensitivity checks, and the saved-map verification runner.
-- [`information-decomposition/`](information-decomposition/): transfer-entropy and integrated-information-decomposition analyses, with the corresponding sensitivity scripts.
+- [`integrated-information-decomposition/`](integrated-information-decomposition/): integrated information decomposition (ΦID) analyses and their sensitivity checks.
 
 Each folder describes its inputs, setup, and commands. The code covers the analyses currently included here; it is not a substitute for the restricted participant-level inputs.
 
