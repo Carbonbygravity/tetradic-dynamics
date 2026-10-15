@@ -14,14 +14,14 @@ Use Python 3.11.11 and install the pinned dependencies:
 
 ```powershell
 python -m pip install -r environment/phasic_clean_requirements_2026_10_14.txt
-python code/run_corrected_phasic_from_package.py --mode primary
-python code/run_corrected_phasic_from_package.py --mode rt_controlled
+python code/run_phasic_clusters.py --mode primary
+python code/run_phasic_clusters.py --mode rt_controlled
 ```
 
 Each command checks all 18 observed t-statistic maps against the archived results without writing outputs. A fresh 5,000-permutation run additionally needs the MNE `fsaverage` subject with `aparc` annotations and white-matter surfaces:
 
 ```powershell
-python code/run_corrected_phasic_from_package.py --mode primary --run-permutations --subjects-dir PATH_TO_MNE_SUBJECTS_DIR --output-dir NEW_EMPTY_PATH --permutations 5000
+python code/run_phasic_clusters.py --mode primary --run-permutations --subjects-dir PATH_TO_MNE_SUBJECTS_DIR --output-dir NEW_EMPTY_PATH --permutations 5000
 ```
 
 Use `--mode rt_controlled` for the corresponding RT-controlled rerun. The primary archived run did not fix a random seed, so cluster p values close to a threshold may vary across reruns; the RT-controlled mode uses seed `20261007`.
