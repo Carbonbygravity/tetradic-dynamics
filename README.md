@@ -1,19 +1,19 @@
 # Tetradic Dynamics Repository
 
-Analysis code for the normative leader-follower sensorimotor coordination paper. The repository is organized by analysis so that each analysis and its sensitivity checks remain together.
+Analysis code for the normative leader–follower sensorimotor coordination paper. Code is organized by analysis, with sensitivity checks alongside the corresponding primary analysis.
 
-## Current contents
+## Available code
 
-- [`phasic-eeg/`](phasic-eeg/): corrected response-locked phasic EEG contrast verification, including the primary and RT-controlled sensitivity modes. The four files in this folder are unchanged from the earlier phasic-only release and are now maintained here.
+- [`phasic-eeg/`](phasic-eeg/): code to verify the response-locked phasic EEG contrast maps and run the primary and RT-controlled cluster analyses.
 
-Behavioural, tonic EEG, and information-decomposition analysis code is not included yet. No claim of reproducibility for those analyses is made by this release.
+The `behavioural/`, `tonic-eeg/`, and `information-decomposition/` folders are currently placeholders; they contain no analysis code.
 
 ## Data access
 
-Participant-level tensors and archived cluster maps are not stored on GitHub. Access to coded participant-level EEG tensors may be considered upon reasonable request, subject to applicable ethics and institutional data-sharing requirements. Until access is authorized, the phasic code can be inspected but cannot reproduce the saved maps.
+Derived participant-level EEG tensors and saved cluster maps are not hosted on GitHub. Access may be requested from the study team, subject to applicable ethics and institutional requirements. These inputs are required to verify or rerun the maps and belong under `phasic-eeg/data/`, which Git excludes.
 
-The phasic runner expects any approved input package under `phasic-eeg/data/`. This directory is excluded from Git. Do not commit or redistribute participant data. See [`phasic-eeg/README.md`](phasic-eeg/README.md) for dependencies, commands, and the limits of the verification code.
+See [`phasic-eeg/README.md`](phasic-eeg/README.md) for dependencies, commands, and the limits of the verification code.
 
 ## Scope
 
-This repository is for the normative paper only. It does not contain code or data from the separate clinical-dyad analysis.
+This repository covers the normative paper, not the separate clinical-dyad study.
