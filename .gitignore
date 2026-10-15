@@ -1,0 +1,15 @@
+# Participant-level inputs and derived outputs must stay outside Git history.
+**/data/
+**/outputs/
+**/results/
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.fif
+*.edf
+
+# Local environments and Python caches.
+**/.venv/
+**/__pycache__/
+*.pyc
