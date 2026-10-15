@@ -25,4 +25,3 @@ python code/run_corrected_phasic_from_package.py --mode primary --run-permutatio
 ```
 
 Use `--mode rt_controlled` for the corresponding RT-controlled rerun. The primary archived run did not fix a random seed, so cluster p values close to a threshold may vary across reruns; the RT-controlled mode uses seed `20261007`.
-
