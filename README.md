@@ -1,19 +1,20 @@
 # Tetradic Dynamics Repository
 
-Analysis code for the normative leader–follower sensorimotor coordination paper. Code is organized by analysis, with sensitivity checks alongside the corresponding primary analysis.
+Analysis code for the normative leader–follower sensorimotor coordination paper. The repository is organized by analysis, with sensitivity checks alongside the corresponding primary analysis.
 
 ## Available code
 
-- [`phasic-eeg/`](phasic-eeg/): code to verify the response-locked phasic EEG contrast maps and run the primary and RT-controlled cluster analyses.
+- [`behavioural/`](behavioural/): reaction-time screening, the trial-level mixed model, within-participant contrasts, and the dyad-level sensitivity check.
+- [`tonic-eeg/`](tonic-eeg/): the RT-adjusted tonic power model, sensitivity checks, and the feature-level results table.
+- [`phasic-eeg/`](phasic-eeg/): response-locked cluster analyses, their sensitivity checks, and the saved-map verification runner.
+- [`information-decomposition/`](information-decomposition/): transfer-entropy and integrated-information-decomposition analyses, with the corresponding sensitivity scripts.
 
-The `behavioural/`, `tonic-eeg/`, and `information-decomposition/` folders are currently placeholders; they contain no analysis code.
+Each folder describes its inputs, setup, and commands. The code covers the analyses currently included here; it is not a substitute for the restricted participant-level inputs.
 
 ## Data access
 
-Derived participant-level EEG tensors and saved cluster maps are not hosted on GitHub. Access may be requested from the study team, subject to applicable ethics and institutional requirements. These inputs are required to verify or rerun the maps and belong under `phasic-eeg/data/`, which Git excludes.
-
-See [`phasic-eeg/README.md`](phasic-eeg/README.md) for dependencies, commands, and the limits of the verification code.
+Participant-level EEG tensors, behavioural response-time data, and saved cluster maps are not hosted on GitHub. Access may be requested from the study team, subject to applicable consent, ethics, and institutional data-sharing requirements. Store approved inputs outside Git history. The repository's `.gitignore` excludes common participant-data and generated-output formats.
 
 ## Scope
 
-This repository covers the normative paper, not the separate clinical-dyad study.
+This repository concerns the normative paper only. It does not contain code or data from the separate clinical-dyad study.
