@@ -1,0 +1,3 @@
+workflow/**/*.py -text
+workflow/**/*.json -text
+frozen_records/*.json -text

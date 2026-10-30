@@ -1,4 +1,4 @@
-"""Dyad-level response-locked phasic EEG cluster sensitivity check.
+"""Dyad-level response-period-onset-aligned phasic EEG cluster sensitivity check.
 
 The 30-participant tensor and saved primary maps must be supplied explicitly.
 The analysis uses 15 dyads as sign-flip units, 5,000 permutations per map,
@@ -42,8 +42,9 @@ def dyad_id(pid: str) -> str:
 def contrasts(cells: np.ndarray) -> dict[str, np.ndarray]:
     """cells axis 0 must be LMA, LMR, FMA, FMR.
 
-    Interaction is Follower(Matching-Mirroring) - Leader(Matching-Mirroring),
-    matching the stated interaction definition and saved primary maps.
+    Interaction is Follower(Matching-Mirroring) - Leader(Matching-Mirroring).
+    This is twice the primary script's contrast amplitude but has the same
+    signed t map under a one-sample test; raw amplitudes must not be equated.
     """
     lma, lmr, fma, fmr = cells
     return {

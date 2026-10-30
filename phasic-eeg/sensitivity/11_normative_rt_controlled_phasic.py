@@ -2,7 +2,7 @@
 
 Each participant's retained trial power is log1p transformed, regressed on the
 matched within-participant rt_z at every ROI x band x time point, then adjusted
-to rt_z=0 before averaging into the verified response-event cells. The same
+to rt_z=0 before averaging into the verified response-period cells. The same
 18 within-map cluster tests as the normative primary analysis are applied to
 the adjusted cell means. Existing source and cluster outputs are read-only.
 """
