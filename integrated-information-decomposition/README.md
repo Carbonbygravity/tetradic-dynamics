@@ -1,6 +1,6 @@
 # Normative integrated information decomposition
 
-`workflow/` contains the code for the harmonized normative ΦID findings reported in the revised paper. `historical/` preserves the earlier ΦID scripts; those scripts do not generate the revised primary findings. The release contains code, frozen target and decision records, an environment specification, and input-verification tools. It does not contain participant source data, generated tensors, null arrays, or reported output files.
+`workflow/` contains the code for the revised normative ΦID findings reported in the revised paper. `historical/` preserves the earlier ΦID scripts; those scripts do not generate the revised primary findings. The release contains code, frozen target and decision records, an environment specification, and input-verification tools. It does not contain participant source data, generated tensors, null arrays, or reported output files.
 
 The analysis uses 30 participant source-ROI HDF5 inputs from 15 dyads. Expected relative filenames, sizes, and SHA-256 hashes are recorded in `workflow/PhiID_Production_Preflight_2026-10-25/input_manifest.example.json`. A researcher with access to the inputs can create a local runtime manifest with `prepare_inputs.py` and compare it with the recorded inputs using `verify_inputs.py`. Runtime manifests contain local paths and should not be committed.
 

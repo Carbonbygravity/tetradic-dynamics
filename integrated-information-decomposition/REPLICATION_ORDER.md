@@ -1,4 +1,4 @@
-# Reproducing the harmonized normative ΦID analysis
+# Reproducing the revised normative ΦID analysis
 
 This code requires the 30 source-ROI HDF5 inputs identified by the example
 manifest; participant data and reported outputs are not included in the
