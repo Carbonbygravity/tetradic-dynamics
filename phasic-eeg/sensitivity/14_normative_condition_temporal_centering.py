@@ -1,7 +1,7 @@
 """Separate sustained-offset sensitivity for normative Condition maps.
 
 For each participant, band, and ROI, subtract the full-epoch mean from the
-Matching-minus-Mirroring response-locked difference before cluster inference.
+Matching-minus-Mirroring response-period-onset-aligned difference before cluster inference.
 This tests temporal variation beyond a participant-specific sustained offset;
 it is not a baseline-normalized analysis or a test of response specificity.
 """

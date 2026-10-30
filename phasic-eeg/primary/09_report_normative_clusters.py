@@ -141,7 +141,7 @@ def summarize_cluster(result, band, contrast, index, t_obs, pval, time_ms, roi_l
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Report saved response-locked phasic clusters.")
+    parser = argparse.ArgumentParser(description="Report saved response-period-onset-aligned phasic clusters.")
     parser.add_argument("--results-dir", type=Path, required=True)
     parser.add_argument("--report-dir", type=Path, required=True)
     args = parser.parse_args()
@@ -207,8 +207,8 @@ def main():
         "Source: normative cluster files with verified cell order and contrasts.\n"
         "Verified cell order: LMA, LMR, FMA, FMR.\n"
         "Condition direction: Matching minus Mirroring.\n"
-        "Role direction: Leader minus Follower (response-event role).\n"
-        "Interaction direction: (LMR+FMA) minus (LMA+FMR).\n"
+        "Role direction: Leader minus Follower (sampled response-period label).\n"
+        "Interaction direction: [(LMR+FMA) minus (LMA+FMR)] / 2.\n"
         "Cluster p-values are within-band, within-contrast permutation results.\n"
         "Time start/end span the cluster's earliest and latest included samples; "
         "n_time_segments indicates whether that span is discontinuous.\n"

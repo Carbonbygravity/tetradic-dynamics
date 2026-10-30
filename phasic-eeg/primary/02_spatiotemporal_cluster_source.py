@@ -22,7 +22,7 @@ from mne.stats import spatio_temporal_cluster_1samp_test
 
 
 # --- 1. Paths / I/O ---
-parser = argparse.ArgumentParser(description="Run normative response-locked cluster tests.")
+parser = argparse.ArgumentParser(description="Run normative response-period-onset-aligned cluster tests.")
 parser.add_argument("--tensor", required=True)
 parser.add_argument("--output-dir", required=True)
 parser.add_argument("--subjects-dir", required=True)
@@ -173,12 +173,12 @@ def make_contrast(X, band_idx, kind):
         A = collapse_cells(X, [IDX["LMA"], IDX["FMA"]])
         B = collapse_cells(X, [IDX["LMR"], IDX["FMR"]])
     elif kind == "Role":
-        # Leader - Follower (response-event role)
+        # Leader - Follower (sampled response-period label)
         A = collapse_cells(X, [IDX["LMR"], IDX["LMA"]])
         B = collapse_cells(X, [IDX["FMR"], IDX["FMA"]])
     elif kind == "Interaction":
-        # (Leader Mirroring + Follower Matching)
-        # - (Leader Matching + Follower Mirroring)
+        # [(Leader Mirroring + Follower Matching)
+        # - (Leader Matching + Follower Mirroring)] / 2
         A = collapse_cells(X, [IDX["LMR"], IDX["FMA"]])
         B = collapse_cells(X, [IDX["LMA"], IDX["FMR"]])
     else:

@@ -1,0 +1,217 @@
+{
+  "scope": "Portable relative-path manifest derived from frozen source hashes; package file sizes checked; no new file hashes computed here.",
+  "source_specification_sha256": null,
+  "historical_source_specification_sha256": "41d041eb82f4d84a2919e48e1b607118b8811cd002009caa298be629cb03ecd5",
+  "inputs": [
+    {
+      "dyad": 1,
+      "partner": 1,
+      "path": "normative/dyad1_P1_roi.h5",
+      "size_bytes": 212337616,
+      "sha256": "8c443d428732e33e44ce8bdf35d3c1105f00fdaadef2a2f08768b0c8fd827ee4"
+    },
+    {
+      "dyad": 1,
+      "partner": 2,
+      "path": "normative/dyad1_P2_roi.h5",
+      "size_bytes": 212337616,
+      "sha256": "a42f8bec7eb6b2e1798e2e3d6dd7b95633023675abab606dec639e32513f5a4f"
+    },
+    {
+      "dyad": 2,
+      "partner": 1,
+      "path": "normative/dyad2_P1_roi.h5",
+      "size_bytes": 497060920,
+      "sha256": "19a740dd8473ae55c9e345094b8bd7a50f6c7df0b11e5479c1dbf23d692b08a0"
+    },
+    {
+      "dyad": 2,
+      "partner": 2,
+      "path": "normative/dyad2_P2_roi.h5",
+      "size_bytes": 497060920,
+      "sha256": "622ea7ddcfdf3c6b1106939ee9614af5c23aaeb254448ca3eddad9b12b330793"
+    },
+    {
+      "dyad": 3,
+      "partner": 1,
+      "path": "normative/dyad3_P1_roi.h5",
+      "size_bytes": 402870536,
+      "sha256": "95df9cedf909f66beab71435919e19a021a984ee43c87c611eb77c5aacd5d26d"
+    },
+    {
+      "dyad": 3,
+      "partner": 2,
+      "path": "normative/dyad3_P2_roi.h5",
+      "size_bytes": 402870536,
+      "sha256": "a67f34a171e79e9cf978a38a34612f195633248a6f9adc055d8f30b0b9c3055d"
+    },
+    {
+      "dyad": 4,
+      "partner": 1,
+      "path": "normative/dyad4_P1_roi.h5",
+      "size_bytes": 417586264,
+      "sha256": "8242731fb22cbb0e983da16d442b6b4dbd1ca8fc9441251b724c1abe067ce82c"
+    },
+    {
+      "dyad": 4,
+      "partner": 2,
+      "path": "normative/dyad4_P2_roi.h5",
+      "size_bytes": 417586264,
+      "sha256": "e7045d73a4f56cb9dba818da96df92350189b961aff4657d728abd2b04ee6e63"
+    },
+    {
+      "dyad": 6,
+      "partner": 1,
+      "path": "normative/dyad6_P1_roi.h5",
+      "size_bytes": 505772920,
+      "sha256": "037a221623a1704b676a5605f354440d042305a0b11151ce4bd7c0b07d002ba8"
+    },
+    {
+      "dyad": 6,
+      "partner": 2,
+      "path": "normative/dyad6_P2_roi.h5",
+      "size_bytes": 505772920,
+      "sha256": "27e22d9628b45cb0c24dc0ef269e47621967f69826d38a298e92bca31bb1a24c"
+    },
+    {
+      "dyad": 7,
+      "partner": 1,
+      "path": "normative/dyad7_P1_roi.h5",
+      "size_bytes": 483453320,
+      "sha256": "a834c9ad046c71556c9da088da09b41a4a9af704b9ac41e1d28e5dcb10cd8359"
+    },
+    {
+      "dyad": 7,
+      "partner": 2,
+      "path": "normative/dyad7_P2_roi.h5",
+      "size_bytes": 483453320,
+      "sha256": "3b1fbac040ac3f0d7a5f187a72b936dcb1b999b2de530b93a185c2c2c511b450"
+    },
+    {
+      "dyad": 8,
+      "partner": 1,
+      "path": "normative/dyad8_P1_roi.h5",
+      "size_bytes": 406684760,
+      "sha256": "19d9f0b2f1590ee3dd58f146475fe8de01b481e3114ee108c324fea6b1d2a7f9"
+    },
+    {
+      "dyad": 8,
+      "partner": 2,
+      "path": "normative/dyad8_P2_roi.h5",
+      "size_bytes": 406684760,
+      "sha256": "cca1f23d4d69cc1f26e1bb6c54228c6070f97ab23685f8335a6db2bbd76e749f"
+    },
+    {
+      "dyad": 9,
+      "partner": 1,
+      "path": "normative/dyad9_P1_roi.h5",
+      "size_bytes": 505772920,
+      "sha256": "51b7e4e1785094c93e267a5293f165e2ab61dfdbc7ad015d146b4efdad508d7d"
+    },
+    {
+      "dyad": 9,
+      "partner": 2,
+      "path": "normative/dyad9_P2_roi.h5",
+      "size_bytes": 505772920,
+      "sha256": "5f3ce421c88a32c3507b78336728e4acc17963b56a544ac5d0504aca068c1bd4"
+    },
+    {
+      "dyad": 10,
+      "partner": 1,
+      "path": "normative/dyad10_P1_roi.h5",
+      "size_bytes": 408877400,
+      "sha256": "53d9b279220a9b217890cd0af55cbbe6b24cb64b7b71cdc2733e65e7b34938b6"
+    },
+    {
+      "dyad": 10,
+      "partner": 2,
+      "path": "normative/dyad10_P2_roi.h5",
+      "size_bytes": 408877400,
+      "sha256": "accbefae594c10589ca6ef4190e4498adfdc5fec9c95c814952aeeecf0b242f1"
+    },
+    {
+      "dyad": 11,
+      "partner": 1,
+      "path": "normative/dyad11_P1_roi.h5",
+      "size_bytes": 481820408,
+      "sha256": "f4296872cbd26f6c18e6e942fa67bc541d522ff09eae5f549034221d54a01385"
+    },
+    {
+      "dyad": 11,
+      "partner": 2,
+      "path": "normative/dyad11_P2_roi.h5",
+      "size_bytes": 481820408,
+      "sha256": "0a264cfe69facbe315fe5f9bca0bde6a93b49e213297f4540087c335cf66738f"
+    },
+    {
+      "dyad": 12,
+      "partner": 1,
+      "path": "normative/dyad12_P1_roi.h5",
+      "size_bytes": 474014221,
+      "sha256": "0074b398bcbd398325e8d7251cf6d044c20d495bdf3674b222829689c9562793"
+    },
+    {
+      "dyad": 12,
+      "partner": 2,
+      "path": "normative/dyad12_P2_roi.h5",
+      "size_bytes": 474200152,
+      "sha256": "f53d6988121c1b11a042eac8ce250d1e0748ceb78a2c5b815faa5a99f03d69bb"
+    },
+    {
+      "dyad": 13,
+      "partner": 1,
+      "path": "normative/dyad13_P1_roi.h5",
+      "size_bytes": 509038744,
+      "sha256": "ac433ca84c9b40e82612e09d3f625a48c4e9fc5cfdb04650f25a9849f7132fd2"
+    },
+    {
+      "dyad": 13,
+      "partner": 2,
+      "path": "normative/dyad13_P2_roi.h5",
+      "size_bytes": 509038744,
+      "sha256": "a6aa377e508c75a7ecd158de85d838d1c8d7797f16cd2caac31e646d132cabc7"
+    },
+    {
+      "dyad": 14,
+      "partner": 1,
+      "path": "normative/dyad14_P1_roi.h5",
+      "size_bytes": 436636904,
+      "sha256": "61fe557f05825ffa353394b8249eb6d50b2abb2a04ecf21aae455189cb43179a"
+    },
+    {
+      "dyad": 14,
+      "partner": 2,
+      "path": "normative/dyad14_P2_roi.h5",
+      "size_bytes": 436636904,
+      "sha256": "c1dad0313704fd2b8044c35e80c7ab0d0e5d01622504917ff2ac8fb3be285230"
+    },
+    {
+      "dyad": 15,
+      "partner": 1,
+      "path": "normative/dyad15_P1_roi.h5",
+      "size_bytes": 444260296,
+      "sha256": "f85d509bb93d7064f32cb67987c2209cc81ce4a28865682d4b177ee2fb684172"
+    },
+    {
+      "dyad": 15,
+      "partner": 2,
+      "path": "normative/dyad15_P2_roi.h5",
+      "size_bytes": 444260296,
+      "sha256": "55afa1bfe31dba6cc8c7478fefca6a9e864a8d9fda4420df9a801cb6460f26f4"
+    },
+    {
+      "dyad": 16,
+      "partner": 1,
+      "path": "normative/dyad16_P1_roi.h5",
+      "size_bytes": 465488152,
+      "sha256": "183459c8b7d443f61406aab42f41ecd3eaba3fcf555ef95f3bceba006ea70668"
+    },
+    {
+      "dyad": 16,
+      "partner": 2,
+      "path": "normative/dyad16_P2_roi.h5",
+      "size_bytes": 465488152,
+      "sha256": "14ffcf78cf01cf5ccf31400e460b38f63d77b3e900aa42d5fc32f278ba5e4bc7"
+    }
+  ]
+}

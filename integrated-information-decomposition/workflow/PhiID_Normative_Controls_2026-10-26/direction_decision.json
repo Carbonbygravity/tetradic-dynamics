@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "date": "2026-10-26",
+  "authorization": "User selected: Test each cluster in its detected direction (recommended). Also approved separate controls and tiers per geometry within overlap table.",
+  "direction": "Parent cluster sign fixed before surrogate p values; multiply both observed and null by that sign. Do not reselect per dyad or surrogate.",
+  "p_formula": "(1 + count(sign * null >= sign * observed)) / 101",
+  "supersedes": "Historical upper-tail candidate rule in initial specification; original generation specification retained unchanged.",
+  "unchanged": "Source data, surrogate generation, seeds, actor assignment, target windows, 100 repetitions, recurrence thresholds. Genuine interaction excluded.",
+  "postprocessor_sha256": "f62820aceeb9964733093998a76add704b115a59ef79c6655bd8b80d634122c8"
+}
