@@ -9,7 +9,7 @@ Code is organized by analysis, with sensitivity procedures alongside the corresp
 - [`behavioural/`](behavioural/): reaction-time screening, trial-level modelling, within-participant contrasts, and dyad-level sensitivity analysis.
 - [`tonic-eeg/`](tonic-eeg/): source-power modelling, sensitivity analyses, and feature-level reporting.
 - [`phasic-eeg/`](phasic-eeg/): response-period-onset-aligned source-power cluster analyses, sensitivity analyses, and saved-map verification.
-- [`integrated-information-decomposition/`](integrated-information-decomposition/): revised normative ΦID estimation, inference, controls, and sensitivity analyses.
+- [`integrated-information-decomposition/`](integrated-information-decomposition/): normative ΦID estimation, inference, controls, and sensitivity analyses.
 
 ## Clinical study
 

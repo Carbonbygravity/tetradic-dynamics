@@ -1,4 +1,4 @@
-# Reproducing the revised normative ΦID analysis
+# Reproducing the normative ΦID analysis
 
 This code requires the 30 source-ROI HDF5 inputs listed in the private frozen
 manifest; participant data and reported outputs are not included in the
