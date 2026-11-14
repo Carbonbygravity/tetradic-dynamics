@@ -1,6 +1,6 @@
 # Tetradic Dynamics
 
-Analysis code for a two-phase study of leader–follower sensorimotor coordination. The normative study characterized coordination in healthy dyads. The clinical study extended the tetradic framework to patient–control dyads and compared their coordination with the normative findings.
+Analysis code and results from a two-phase clinical study of embodied leader–follower sensorimotor coordination. In the normative phase, we used the tetradic framework and EEG hyperscanning to characterize coordination in healthy dyads. In the clinical phase, we extended this approach to dyads pairing a patient with psychosis and a healthy partner and compared their coordination with the normative findings.
 
 ## Normative study
 
