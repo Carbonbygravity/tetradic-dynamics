@@ -1,0 +1,67 @@
+{
+  "cohort": "normative",
+  "contrasts": {
+    "Matching_minus_Mirroring": [
+      -0.5,
+      0.5,
+      0.5,
+      -0.5
+    ],
+    "Leader_minus_Follower_Mirroring": [
+      1.0,
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "Leader_minus_Follower_Matching": [
+      0.0,
+      1.0,
+      -1.0,
+      0.0
+    ],
+    "Leader_period_minus_Follower_period": [
+      0.5,
+      0.5,
+      -0.5,
+      -0.5
+    ]
+  },
+  "cell_order": [
+    "LMR",
+    "LMA",
+    "FMA",
+    "FMR"
+  ],
+  "targets_sha256": "2d3c40e82760a4b5a65787b50e8971fe7c5471abcbb68963bae44a2a5cc48ce4",
+  "manifest_sha256": "004cfdf4b77926bb1fc94b3ec16ad3e4d7bac98f1091928585ee08828ebf6bd9",
+  "production_spec_sha256": "4ef3e8d1977963408b82feda1d5bae95ed308f3d0b3968f6a680cd337bb8dde7",
+  "surrogates": 100,
+  "seed": 1337,
+  "partner": "physical P2",
+  "trial_strata": "chronological block and response period",
+  "time_shift": "one circular lag per dyad and repetition, integers 20..999 inclusive, shared across ROIs/bands",
+  "p_value": "historical upper-tail (1 + count(null >= observed))/(101), without sign reorientation",
+  "time_gate": "cohort mean trial-shuffle p <= .10 independently per geometry-target",
+  "tiers": {
+    "alpha": 0.05,
+    "trial_min_dyads": 4,
+    "time_min_dyads": 3,
+    "overlap": "separate tier per geometry; no combined tier"
+  },
+  "observed_statistic": "mean across saved sampled centres of the pointwise production PhiID cell contrast",
+  "genuine_interaction": "excluded",
+  "workers": 1,
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "scipy": "1.15.2",
+    "h5py": "3.11.0"
+  },
+  "numeric_tolerance": {
+    "rtol": 1e-07,
+    "atol": 1e-07
+  },
+  "batch_size": 10,
+  "dyad_count": 15,
+  "reference_copy": "Public methods reference for the clinical launcher. The archived execution specification is retained separately."
+}

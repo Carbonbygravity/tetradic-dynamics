@@ -1,0 +1,24 @@
+# Participant inputs and generated analysis outputs remain outside Git history.
+**/__pycache__/
+**/*.pyc
+**/*.h5
+**/*.hdf5
+**/*.pkl
+**/*.npy
+**/*.npz
+**/*.partial
+**/*.log
+**/run.lock
+**/queue.lock
+
+# Runtime manifests, specifications, summaries, and tier outputs.
+workflow/**/*.json
+workflow/**/production/
+workflow/**/trial/
+workflow/**/time/
+workflow/**/checkpoints/
+
+# Frozen workflow inputs distributed with the code.
+!workflow/PhiID_Production_Preflight_2026-10-25/input_manifest.example.json
+!workflow/PhiID_Normative_Controls_2026-10-26/direction_decision.json
+!workflow/PhiID_Normative_RoleSwap_Plan_2026-10-27/target_inventory.json

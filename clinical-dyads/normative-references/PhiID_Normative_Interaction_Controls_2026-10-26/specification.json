@@ -1,0 +1,49 @@
+{
+  "cohort": "normative",
+  "contrasts": {
+    "Role_by_Condition": [
+      -1.0,
+      1.0,
+      -1.0,
+      1.0
+    ]
+  },
+  "cell_order": [
+    "LMR",
+    "LMA",
+    "FMA",
+    "FMR"
+  ],
+  "targets_sha256": "daa62a9a6409e9cb15a3e4f913b363e7b3a51f3977273540d8df9ffc50c76e9a",
+  "manifest_sha256": "004cfdf4b77926bb1fc94b3ec16ad3e4d7bac98f1091928585ee08828ebf6bd9",
+  "production_spec_sha256": "4ef3e8d1977963408b82feda1d5bae95ed308f3d0b3968f6a680cd337bb8dde7",
+  "surrogates": 100,
+  "seed": 1337,
+  "partner": "physical P2",
+  "trial_strata": "chronological block and response period",
+  "time_shift": "one circular lag per dyad and repetition, integers 20..999 inclusive, shared across ROIs/bands",
+  "p_value": "Fixed parent-cluster direction: (1+count(sign*null>=sign*observed))/101",
+  "time_gate": "cohort mean trial-shuffle p <= .10 independently per geometry-target",
+  "tiers": {
+    "alpha": 0.05,
+    "trial_min_dyads": 4,
+    "time_min_dyads": 3,
+    "overlap": "separate tier per geometry; no combined tier"
+  },
+  "observed_statistic": "mean across saved sampled centres of the pointwise production PhiID cell contrast",
+  "genuine_interaction": "Only contrast; kept separate from four matched contrasts",
+  "workers": 1,
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "scipy": "1.15.2",
+    "h5py": "3.11.0"
+  },
+  "numeric_tolerance": {
+    "rtol": 1e-07,
+    "atol": 1e-07
+  },
+  "batch_size": 10,
+  "dyad_count": 15,
+  "reference_copy": "Public methods reference for the clinical launcher. The archived execution specification is retained separately."
+}

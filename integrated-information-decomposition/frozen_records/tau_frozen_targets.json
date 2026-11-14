@@ -1,0 +1,765 @@
+[
+  {
+    "id": 66,
+    "contrast": "Matching_minus_Mirroring",
+    "partition": "homologous_only",
+    "pair_id": null,
+    "geometry": "homologous",
+    "roi": "postcentral-rh",
+    "follower_roi": "postcentral-rh",
+    "roi_index": 45,
+    "band": [
+      4,
+      7
+    ],
+    "band_index": 0,
+    "atom": "rtr",
+    "atom_index": 0,
+    "start": 0,
+    "stop": 121,
+    "start_ms": -999,
+    "end_ms": -879,
+    "parent_cluster": "Matching_minus_Mirroring:2160:0:121:1",
+    "trial": {
+      "target_id": 66,
+      "direction": 1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": 0.005164692361074998
+    },
+    "time_shift": {
+      "target_id": 66,
+      "direction": 1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 6,
+      "mean_observed": 0.005164692361074998
+    },
+    "time_shift_tested": true,
+    "tier": "A",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:66"
+  },
+  {
+    "id": 96,
+    "contrast": "Matching_minus_Mirroring",
+    "partition": "cross_hemisphere_only",
+    "pair_id": null,
+    "geometry": "cross_hemisphere",
+    "roi": "insula-lh",
+    "follower_roi": "insula-rh",
+    "roi_index": 18,
+    "band": [
+      20,
+      29
+    ],
+    "band_index": 4,
+    "atom": "yty",
+    "atom_index": 2,
+    "start": 1026,
+    "stop": 1197,
+    "start_ms": 27,
+    "end_ms": 197,
+    "parent_cluster": "Matching_minus_Mirroring:906:1026:1197:1",
+    "trial": {
+      "target_id": 96,
+      "direction": 1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": 0.08383489599289422
+    },
+    "time_shift": {
+      "target_id": 96,
+      "direction": 1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 5,
+      "mean_observed": 0.08383489599289422
+    },
+    "time_shift_tested": true,
+    "tier": "A",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:96"
+  },
+  {
+    "id": 106,
+    "contrast": "Matching_minus_Mirroring",
+    "partition": "cross_hemisphere_only",
+    "pair_id": null,
+    "geometry": "cross_hemisphere",
+    "roi": "medialorbitofrontal-lh",
+    "follower_roi": "medialorbitofrontal-rh",
+    "roi_index": 28,
+    "band": [
+      13,
+      19
+    ],
+    "band_index": 3,
+    "atom": "rtr",
+    "atom_index": 0,
+    "start": 1372,
+    "stop": 1541,
+    "start_ms": 373,
+    "end_ms": 541,
+    "parent_cluster": "Matching_minus_Mirroring:1380:1372:1541:1",
+    "trial": {
+      "target_id": 106,
+      "direction": 1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 5,
+      "mean_observed": 0.007883585785680493
+    },
+    "time_shift": {
+      "target_id": 106,
+      "direction": 1,
+      "group_p": 0.019801980198019802,
+      "n_pass": 0,
+      "mean_observed": 0.007883585785680493
+    },
+    "time_shift_tested": true,
+    "tier": "B",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:106"
+  },
+  {
+    "id": 246,
+    "contrast": "Leader_minus_Follower_Mirroring",
+    "partition": "homologous_only",
+    "pair_id": null,
+    "geometry": "homologous",
+    "roi": "rostralanteriorcingulate-rh",
+    "follower_roi": "rostralanteriorcingulate-rh",
+    "roi_index": 53,
+    "band": [
+      4,
+      7
+    ],
+    "band_index": 0,
+    "atom": "sts",
+    "atom_index": 3,
+    "start": 49,
+    "stop": 187,
+    "start_ms": -950,
+    "end_ms": -813,
+    "parent_cluster": "Leader_minus_Follower_Mirroring:2547:49:187:-1",
+    "trial": {
+      "target_id": 246,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 5,
+      "mean_observed": -0.16383362178141614
+    },
+    "time_shift": {
+      "target_id": 246,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": -0.16383362178141614
+    },
+    "time_shift_tested": true,
+    "tier": "A",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:246"
+  },
+  {
+    "id": 275,
+    "contrast": "Leader_minus_Follower_Mirroring",
+    "partition": "cross_hemisphere_only",
+    "pair_id": null,
+    "geometry": "cross_hemisphere",
+    "roi": "isthmuscingulate-rh",
+    "follower_roi": "isthmuscingulate-lh",
+    "roi_index": 21,
+    "band": [
+      30,
+      45
+    ],
+    "band_index": 5,
+    "atom": "rtr",
+    "atom_index": 0,
+    "start": 1234,
+    "stop": 1409,
+    "start_ms": 235,
+    "end_ms": 409,
+    "parent_cluster": "Leader_minus_Follower_Mirroring:1052:1234:1409:-1",
+    "trial": {
+      "target_id": 275,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": -0.012379968742162186
+    },
+    "time_shift": {
+      "target_id": 275,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 1,
+      "mean_observed": -0.012379968742162186
+    },
+    "time_shift_tested": true,
+    "tier": "B",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:275"
+  },
+  {
+    "id": 387,
+    "contrast": "Leader_minus_Follower_Matching",
+    "partition": "homologous_only",
+    "pair_id": null,
+    "geometry": "homologous",
+    "roi": "isthmuscingulate-lh",
+    "follower_roi": "isthmuscingulate-lh",
+    "roi_index": 20,
+    "band": [
+      13,
+      19
+    ],
+    "band_index": 3,
+    "atom": "rtr",
+    "atom_index": 0,
+    "start": 1230,
+    "stop": 1408,
+    "start_ms": 231,
+    "end_ms": 408,
+    "parent_cluster": "Leader_minus_Follower_Matching:972:1230:1408:1",
+    "trial": {
+      "target_id": 387,
+      "direction": 1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": 0.006833469328603381
+    },
+    "time_shift": {
+      "target_id": 387,
+      "direction": 1,
+      "group_p": 0.04950495049504951,
+      "n_pass": 2,
+      "mean_observed": 0.006833469328603381
+    },
+    "time_shift_tested": true,
+    "tier": "B",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:387"
+  },
+  {
+    "id": 471,
+    "contrast": "Leader_minus_Follower_Matching",
+    "partition": "cross_hemisphere_only",
+    "pair_id": null,
+    "geometry": "cross_hemisphere",
+    "roi": "paracentral-rh",
+    "follower_roi": "paracentral-lh",
+    "roi_index": 33,
+    "band": [
+      8,
+      9
+    ],
+    "band_index": 1,
+    "atom": "rtr",
+    "atom_index": 0,
+    "start": 804,
+    "stop": 918,
+    "start_ms": -195,
+    "end_ms": -82,
+    "parent_cluster": "Leader_minus_Follower_Matching:1612:804:918:1",
+    "trial": {
+      "target_id": 471,
+      "direction": 1,
+      "group_p": 0.04950495049504951,
+      "n_pass": 4,
+      "mean_observed": 0.012152080570237643
+    },
+    "time_shift": {
+      "target_id": 471,
+      "direction": 1,
+      "group_p": 0.039603960396039604,
+      "n_pass": 3,
+      "mean_observed": 0.012152080570237643
+    },
+    "time_shift_tested": true,
+    "tier": "A",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:471"
+  },
+  {
+    "id": 596,
+    "contrast": "Leader_period_minus_Follower_period",
+    "partition": "overlap",
+    "pair_id": "Leader_period_minus_Follower_period:pair37",
+    "geometry": "cross_hemisphere",
+    "roi": "superiortemporal-rh",
+    "follower_roi": "superiortemporal-lh",
+    "roi_index": 61,
+    "band": [
+      13,
+      19
+    ],
+    "band_index": 3,
+    "atom": "xtx",
+    "atom_index": 1,
+    "start": 1155,
+    "stop": 1233,
+    "start_ms": 156,
+    "end_ms": 233,
+    "parent_cluster": "Leader_period_minus_Follower_period:2965:1155:1242:-1",
+    "trial": {
+      "target_id": 596,
+      "direction": -1,
+      "group_p": 0.04950495049504951,
+      "n_pass": 5,
+      "mean_observed": -0.07002282728839836
+    },
+    "time_shift": {
+      "target_id": 596,
+      "direction": -1,
+      "group_p": 0.019801980198019802,
+      "n_pass": 2,
+      "mean_observed": -0.07002282728839836
+    },
+    "time_shift_tested": true,
+    "tier": "B",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:596"
+  },
+  {
+    "id": 599,
+    "contrast": "Leader_period_minus_Follower_period",
+    "partition": "homologous_only",
+    "pair_id": null,
+    "geometry": "homologous",
+    "roi": "bankssts-lh",
+    "follower_roi": "bankssts-lh",
+    "roi_index": 0,
+    "band": [
+      4,
+      7
+    ],
+    "band_index": 0,
+    "atom": "xtx",
+    "atom_index": 1,
+    "start": 1216,
+    "stop": 1321,
+    "start_ms": 217,
+    "end_ms": 321,
+    "parent_cluster": "Leader_period_minus_Follower_period:1:1216:1321:1",
+    "trial": {
+      "target_id": 599,
+      "direction": 1,
+      "group_p": 0.04950495049504951,
+      "n_pass": 5,
+      "mean_observed": 0.05802848490366929
+    },
+    "time_shift": {
+      "target_id": 599,
+      "direction": 1,
+      "group_p": 0.039603960396039604,
+      "n_pass": 3,
+      "mean_observed": 0.05802848490366929
+    },
+    "time_shift_tested": true,
+    "tier": "A",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:599"
+  },
+  {
+    "id": 614,
+    "contrast": "Leader_period_minus_Follower_period",
+    "partition": "homologous_only",
+    "pair_id": null,
+    "geometry": "homologous",
+    "roi": "lateraloccipital-rh",
+    "follower_roi": "lateraloccipital-rh",
+    "roi_index": 23,
+    "band": [
+      30,
+      45
+    ],
+    "band_index": 5,
+    "atom": "rtr",
+    "atom_index": 0,
+    "start": 771,
+    "stop": 940,
+    "start_ms": -228,
+    "end_ms": -60,
+    "parent_cluster": "Leader_period_minus_Follower_period:1124:771:940:-1",
+    "trial": {
+      "target_id": 614,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": -0.008722208568679257
+    },
+    "time_shift": {
+      "target_id": 614,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 5,
+      "mean_observed": -0.008722208568679257
+    },
+    "time_shift_tested": true,
+    "tier": "A",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:614"
+  },
+  {
+    "id": 648,
+    "contrast": "Leader_period_minus_Follower_period",
+    "partition": "homologous_only",
+    "pair_id": null,
+    "geometry": "homologous",
+    "roi": "rostralanteriorcingulate-rh",
+    "follower_roi": "rostralanteriorcingulate-rh",
+    "roi_index": 53,
+    "band": [
+      4,
+      7
+    ],
+    "band_index": 0,
+    "atom": "sts",
+    "atom_index": 3,
+    "start": 48,
+    "stop": 226,
+    "start_ms": -951,
+    "end_ms": -774,
+    "parent_cluster": "Leader_period_minus_Follower_period:2547:48:226:-1",
+    "trial": {
+      "target_id": 648,
+      "direction": -1,
+      "group_p": 0.019801980198019802,
+      "n_pass": 5,
+      "mean_observed": -0.13369772558084705
+    },
+    "time_shift": {
+      "target_id": 648,
+      "direction": -1,
+      "group_p": 0.039603960396039604,
+      "n_pass": 2,
+      "mean_observed": -0.13369772558084705
+    },
+    "time_shift_tested": true,
+    "tier": "B",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:648"
+  },
+  {
+    "id": 652,
+    "contrast": "Leader_period_minus_Follower_period",
+    "partition": "homologous_only",
+    "pair_id": null,
+    "geometry": "homologous",
+    "roi": "superiorfrontal-rh",
+    "follower_roi": "superiorfrontal-rh",
+    "roi_index": 57,
+    "band": [
+      8,
+      9
+    ],
+    "band_index": 1,
+    "atom": "yty",
+    "atom_index": 2,
+    "start": 1554,
+    "stop": 1622,
+    "start_ms": 555,
+    "end_ms": 622,
+    "parent_cluster": "Leader_period_minus_Follower_period:2742:1554:1622:-1",
+    "trial": {
+      "target_id": 652,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": -0.08474436620337131
+    },
+    "time_shift": {
+      "target_id": 652,
+      "direction": -1,
+      "group_p": 0.04950495049504951,
+      "n_pass": 0,
+      "mean_observed": -0.08474436620337131
+    },
+    "time_shift_tested": true,
+    "tier": "B",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:652"
+  },
+  {
+    "id": 660,
+    "contrast": "Leader_period_minus_Follower_period",
+    "partition": "homologous_only",
+    "pair_id": null,
+    "geometry": "homologous",
+    "roi": "supramarginal-lh",
+    "follower_roi": "supramarginal-lh",
+    "roi_index": 62,
+    "band": [
+      13,
+      19
+    ],
+    "band_index": 3,
+    "atom": "rtr",
+    "atom_index": 0,
+    "start": 264,
+    "stop": 385,
+    "start_ms": -735,
+    "end_ms": -615,
+    "parent_cluster": "Leader_period_minus_Follower_period:2988:264:385:-1",
+    "trial": {
+      "target_id": 660,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": -0.0051708548037526485
+    },
+    "time_shift": {
+      "target_id": 660,
+      "direction": -1,
+      "group_p": 0.0297029702970297,
+      "n_pass": 4,
+      "mean_observed": -0.0051708548037526485
+    },
+    "time_shift_tested": true,
+    "tier": "A",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:660"
+  },
+  {
+    "id": 662,
+    "contrast": "Leader_period_minus_Follower_period",
+    "partition": "homologous_only",
+    "pair_id": null,
+    "geometry": "homologous",
+    "roi": "temporalpole-rh",
+    "follower_roi": "temporalpole-rh",
+    "roi_index": 65,
+    "band": [
+      10,
+      12
+    ],
+    "band_index": 2,
+    "atom": "rtr",
+    "atom_index": 0,
+    "start": 806,
+    "stop": 912,
+    "start_ms": -193,
+    "end_ms": -88,
+    "parent_cluster": "Leader_period_minus_Follower_period:3128:806:912:-1",
+    "trial": {
+      "target_id": 662,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": -0.004279191402786149
+    },
+    "time_shift": {
+      "target_id": 662,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 8,
+      "mean_observed": -0.004279191402786149
+    },
+    "time_shift_tested": true,
+    "tier": "A",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:662"
+  },
+  {
+    "id": 672,
+    "contrast": "Leader_period_minus_Follower_period",
+    "partition": "cross_hemisphere_only",
+    "pair_id": null,
+    "geometry": "cross_hemisphere",
+    "roi": "entorhinal-rh",
+    "follower_roi": "entorhinal-lh",
+    "roi_index": 9,
+    "band": [
+      10,
+      12
+    ],
+    "band_index": 2,
+    "atom": "rtr",
+    "atom_index": 0,
+    "start": 1220,
+    "stop": 1337,
+    "start_ms": 221,
+    "end_ms": 337,
+    "parent_cluster": "Leader_period_minus_Follower_period:464:1220:1337:1",
+    "trial": {
+      "target_id": 672,
+      "direction": 1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": 0.004762921542433221
+    },
+    "time_shift": {
+      "target_id": 672,
+      "direction": 1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 6,
+      "mean_observed": 0.004762921542433221
+    },
+    "time_shift_tested": true,
+    "tier": "A",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:672"
+  },
+  {
+    "id": 711,
+    "contrast": "Leader_period_minus_Follower_period",
+    "partition": "cross_hemisphere_only",
+    "pair_id": null,
+    "geometry": "cross_hemisphere",
+    "roi": "parstriangularis-lh",
+    "follower_roi": "parstriangularis-rh",
+    "roi_index": 40,
+    "band": [
+      10,
+      12
+    ],
+    "band_index": 2,
+    "atom": "rtr",
+    "atom_index": 0,
+    "start": 979,
+    "stop": 1091,
+    "start_ms": -20,
+    "end_ms": 91,
+    "parent_cluster": "Leader_period_minus_Follower_period:1952:979:1091:-1",
+    "trial": {
+      "target_id": 711,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": -0.003954997960808994
+    },
+    "time_shift": {
+      "target_id": 711,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": -0.003954997960808994
+    },
+    "time_shift_tested": true,
+    "tier": "A",
+    "source": "PhiID_Normative_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Controls_2026-10-26:711"
+  },
+  {
+    "id": 0,
+    "contrast": "Role_by_Condition",
+    "partition": "overlap",
+    "pair_id": "Role_by_Condition:pair0",
+    "start": 256,
+    "stop": 369,
+    "start_ms": -743,
+    "end_ms": -631,
+    "direction": -1,
+    "parent_cluster": "Role_by_Condition:501:256:369:-1",
+    "geometry": "homologous",
+    "roi": "frontalpole-lh",
+    "follower_roi": "frontalpole-lh",
+    "roi_index": 10,
+    "band": [
+      30,
+      45
+    ],
+    "band_index": 5,
+    "atom": "xtx",
+    "atom_index": 1,
+    "trial": {
+      "target_id": 0,
+      "direction": -1,
+      "group_p": 0.04950495049504951,
+      "n_pass": 4,
+      "mean_observed": -0.11233729651406697
+    },
+    "time_shift": {
+      "target_id": 0,
+      "direction": -1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 1,
+      "mean_observed": -0.11233729651406697
+    },
+    "time_shift_tested": true,
+    "tier": "B",
+    "source": "PhiID_Normative_Interaction_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Interaction_Controls_2026-10-26:0"
+  },
+  {
+    "id": 33,
+    "contrast": "Role_by_Condition",
+    "partition": "cross_hemisphere_only",
+    "pair_id": null,
+    "start": 1434,
+    "stop": 1606,
+    "start_ms": 435,
+    "end_ms": 606,
+    "direction": -1,
+    "parent_cluster": "Role_by_Condition:216:1434:1606:-1",
+    "geometry": "cross_hemisphere",
+    "roi": "caudalmiddlefrontal-lh",
+    "follower_roi": "caudalmiddlefrontal-rh",
+    "roi_index": 4,
+    "band": [
+      4,
+      7
+    ],
+    "band_index": 0,
+    "atom": "rtr",
+    "atom_index": 0,
+    "trial": {
+      "target_id": 33,
+      "direction": -1,
+      "group_p": 0.019801980198019802,
+      "n_pass": 4,
+      "mean_observed": -0.012412925033424723
+    },
+    "time_shift": {
+      "target_id": 33,
+      "direction": -1,
+      "group_p": 0.10891089108910891,
+      "n_pass": 0,
+      "mean_observed": -0.012412925033424723
+    },
+    "time_shift_tested": true,
+    "tier": "B",
+    "source": "PhiID_Normative_Interaction_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Interaction_Controls_2026-10-26:33"
+  },
+  {
+    "id": 48,
+    "contrast": "Role_by_Condition",
+    "partition": "cross_hemisphere_only",
+    "pair_id": null,
+    "start": 524,
+    "stop": 657,
+    "start_ms": -475,
+    "end_ms": -343,
+    "direction": 1,
+    "parent_cluster": "Role_by_Condition:796:524:657:1",
+    "geometry": "cross_hemisphere",
+    "roi": "inferiortemporal-lh",
+    "follower_roi": "inferiortemporal-rh",
+    "roi_index": 16,
+    "band": [
+      8,
+      9
+    ],
+    "band_index": 1,
+    "atom": "rtr",
+    "atom_index": 0,
+    "trial": {
+      "target_id": 48,
+      "direction": 1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 4,
+      "mean_observed": 0.008461058361558626
+    },
+    "time_shift": {
+      "target_id": 48,
+      "direction": 1,
+      "group_p": 0.009900990099009901,
+      "n_pass": 7,
+      "mean_observed": 0.008461058361558626
+    },
+    "time_shift_tested": true,
+    "tier": "A",
+    "source": "PhiID_Normative_Interaction_Controls_2026-10-26/directional_tiers.json",
+    "uid": "PhiID_Normative_Interaction_Controls_2026-10-26:48"
+  }
+]

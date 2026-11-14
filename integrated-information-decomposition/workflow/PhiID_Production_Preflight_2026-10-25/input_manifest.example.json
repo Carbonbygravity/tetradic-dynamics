@@ -1,0 +1,14 @@
+{
+  "scope": "Synthetic schema example for a single file. For study input verification, supply the authorized frozen manifest.",
+  "source_specification_sha256": null,
+  "historical_source_specification_sha256": null,
+  "inputs": [
+    {
+      "dyad": 999,
+      "partner": 1,
+      "path": "synthetic/example_partner_1.h5",
+      "size_bytes": 27,
+      "sha256": "9cd4f558df1256ce5ec8f7285af7b9e64f24bd65b939cb688a8316bff3ad0aa6"
+    }
+  ]
+}

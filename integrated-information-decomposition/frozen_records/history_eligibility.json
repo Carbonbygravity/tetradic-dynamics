@@ -1,0 +1,177 @@
+{
+  "eligible": [
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:96",
+      "roi": "insula-lh",
+      "geometry": "cross_hemisphere",
+      "atom": "yty",
+      "contrast": "Matching_minus_Mirroring",
+      "n_centres": 171,
+      "original_centres": 171
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:106",
+      "roi": "medialorbitofrontal-lh",
+      "geometry": "cross_hemisphere",
+      "atom": "rtr",
+      "contrast": "Matching_minus_Mirroring",
+      "n_centres": 169,
+      "original_centres": 169
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:275",
+      "roi": "isthmuscingulate-rh",
+      "geometry": "cross_hemisphere",
+      "atom": "rtr",
+      "contrast": "Leader_minus_Follower_Mirroring",
+      "n_centres": 175,
+      "original_centres": 175
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:387",
+      "roi": "isthmuscingulate-lh",
+      "geometry": "homologous",
+      "atom": "rtr",
+      "contrast": "Leader_minus_Follower_Matching",
+      "n_centres": 178,
+      "original_centres": 178
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:471",
+      "roi": "paracentral-rh",
+      "geometry": "cross_hemisphere",
+      "atom": "rtr",
+      "contrast": "Leader_minus_Follower_Matching",
+      "n_centres": 114,
+      "original_centres": 114
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:596",
+      "roi": "superiortemporal-rh",
+      "geometry": "cross_hemisphere",
+      "atom": "xtx",
+      "contrast": "Leader_period_minus_Follower_period",
+      "n_centres": 78,
+      "original_centres": 78
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:599",
+      "roi": "bankssts-lh",
+      "geometry": "homologous",
+      "atom": "xtx",
+      "contrast": "Leader_period_minus_Follower_period",
+      "n_centres": 105,
+      "original_centres": 105
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:614",
+      "roi": "lateraloccipital-rh",
+      "geometry": "homologous",
+      "atom": "rtr",
+      "contrast": "Leader_period_minus_Follower_period",
+      "n_centres": 169,
+      "original_centres": 169
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:648",
+      "roi": "rostralanteriorcingulate-rh",
+      "geometry": "homologous",
+      "atom": "sts",
+      "contrast": "Leader_period_minus_Follower_period",
+      "n_centres": 35,
+      "original_centres": 178
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:652",
+      "roi": "superiorfrontal-rh",
+      "geometry": "homologous",
+      "atom": "yty",
+      "contrast": "Leader_period_minus_Follower_period",
+      "n_centres": 68,
+      "original_centres": 68
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:660",
+      "roi": "supramarginal-lh",
+      "geometry": "homologous",
+      "atom": "rtr",
+      "contrast": "Leader_period_minus_Follower_period",
+      "n_centres": 121,
+      "original_centres": 121
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:662",
+      "roi": "temporalpole-rh",
+      "geometry": "homologous",
+      "atom": "rtr",
+      "contrast": "Leader_period_minus_Follower_period",
+      "n_centres": 106,
+      "original_centres": 106
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:672",
+      "roi": "entorhinal-rh",
+      "geometry": "cross_hemisphere",
+      "atom": "rtr",
+      "contrast": "Leader_period_minus_Follower_period",
+      "n_centres": 117,
+      "original_centres": 117
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:711",
+      "roi": "parstriangularis-lh",
+      "geometry": "cross_hemisphere",
+      "atom": "rtr",
+      "contrast": "Leader_period_minus_Follower_period",
+      "n_centres": 112,
+      "original_centres": 112
+    },
+    {
+      "uid": "PhiID_Normative_Interaction_Controls_2026-10-26:0",
+      "roi": "frontalpole-lh",
+      "geometry": "homologous",
+      "atom": "xtx",
+      "contrast": "Role_by_Condition",
+      "n_centres": 113,
+      "original_centres": 113
+    },
+    {
+      "uid": "PhiID_Normative_Interaction_Controls_2026-10-26:33",
+      "roi": "caudalmiddlefrontal-lh",
+      "geometry": "cross_hemisphere",
+      "atom": "rtr",
+      "contrast": "Role_by_Condition",
+      "n_centres": 172,
+      "original_centres": 172
+    },
+    {
+      "uid": "PhiID_Normative_Interaction_Controls_2026-10-26:48",
+      "roi": "inferiortemporal-lh",
+      "geometry": "cross_hemisphere",
+      "atom": "rtr",
+      "contrast": "Role_by_Condition",
+      "n_centres": 133,
+      "original_centres": 133
+    }
+  ],
+  "excluded": [
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:66",
+      "roi": "postcentral-rh",
+      "geometry": "homologous",
+      "atom": "rtr",
+      "contrast": "Matching_minus_Mirroring",
+      "n_centres": 0,
+      "original_centres": 121
+    },
+    {
+      "uid": "PhiID_Normative_Controls_2026-10-26:246",
+      "roi": "rostralanteriorcingulate-rh",
+      "geometry": "homologous",
+      "atom": "sts",
+      "contrast": "Leader_minus_Follower_Mirroring",
+      "n_centres": 0,
+      "original_centres": 138
+    }
+  ]
+}
